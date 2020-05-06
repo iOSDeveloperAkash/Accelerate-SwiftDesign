@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "png-transparent-map-computer-icons-flat-design-location-logo-location-icon-photography-heart-logo.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "png-transparent-map-computer-icons-flat-design-location-logo-location-icon-photography-heart-logo-1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "png-transparent-map-computer-icons-flat-design-location-logo-location-icon-photography-heart-logo-2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

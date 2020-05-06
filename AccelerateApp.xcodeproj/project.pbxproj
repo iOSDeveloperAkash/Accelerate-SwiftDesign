@@ -7,13 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2897556245FE3D100AFDDD7 /* MyTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2897554245FE3D100AFDDD7 /* MyTabbar.swift */; };
+		F2897557245FE3D100AFDDD7 /* CustomTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2897555245FE3D100AFDDD7 /* CustomTabbar.swift */; };
+		F2897559245FFAC600AFDDD7 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2897558245FFAC600AFDDD7 /* HomeVC.swift */; };
 		F2A00936245C2CDD00BC054E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A00935245C2CDD00BC054E /* AppDelegate.swift */; };
-		F2A00938245C2CDD00BC054E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A00937245C2CDD00BC054E /* SceneDelegate.swift */; };
-		F2A0093A245C2CDD00BC054E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A00939245C2CDD00BC054E /* ViewController.swift */; };
+		F2A0093A245C2CDD00BC054E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A00939245C2CDD00BC054E /* LoginVC.swift */; };
 		F2A0093D245C2CDD00BC054E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A0093B245C2CDD00BC054E /* Main.storyboard */; };
 		F2A0093F245C2CE300BC054E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2A0093E245C2CE300BC054E /* Assets.xcassets */; };
 		F2A00942245C2CE300BC054E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A00940245C2CE300BC054E /* LaunchScreen.storyboard */; };
 		F2A0094D245C2CE300BC054E /* AccelerateAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A0094C245C2CE300BC054E /* AccelerateAppTests.swift */; };
+		F2A0095A245C356400BC054E /* SignUpLogoAnimationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A00958245C356400BC054E /* SignUpLogoAnimationCell.swift */; };
+		F2A0095B245C356400BC054E /* SignUpLogoAnimationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A00959245C356400BC054E /* SignUpLogoAnimationCell.xib */; };
+		F2A00960245C5AAA00BC054E /* SignUpAnimationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A0095E245C5AAA00BC054E /* SignUpAnimationCell.swift */; };
+		F2A00961245C5AAA00BC054E /* SignUpAnimationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A0095F245C5AAA00BC054E /* SignUpAnimationCell.xib */; };
+		F2A066FF245D957A00CC0F9D /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A066FD245D957A00CC0F9D /* TextFieldCell.swift */; };
+		F2A06700245D957A00CC0F9D /* TextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A066FE245D957A00CC0F9D /* TextFieldCell.xib */; };
+		F2A06703245D981900CC0F9D /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06702245D981900CC0F9D /* UIView+Extension.swift */; };
+		F2A06705245D98FE00CC0F9D /* TextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06704245D98FE00CC0F9D /* TextField+Extension.swift */; };
+		F2A06708245DA6B600CC0F9D /* CommonSubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06706245DA6B600CC0F9D /* CommonSubmitButton.swift */; };
+		F2A06709245DA6B600CC0F9D /* CommonSubmitButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A06707245DA6B600CC0F9D /* CommonSubmitButton.xib */; };
+		F2A0670C245DD2D600CC0F9D /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A0670B245DD2D600CC0F9D /* SignUpVC.swift */; };
+		F2AE060E246156B100C4A9F0 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AE060C246156B100C4A9F0 /* PhotoCell.swift */; };
+		F2AE060F246156B100C4A9F0 /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2AE060D246156B100C4A9F0 /* PhotoCell.xib */; };
+		F2D5D6F52460514E00F563F1 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5D6F32460514E00F563F1 /* HomeCell.swift */; };
+		F2D5D6F62460514E00F563F1 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2D5D6F42460514E00F563F1 /* HomeCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F2897554245FE3D100AFDDD7 /* MyTabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabbar.swift; sourceTree = "<group>"; };
+		F2897555245FE3D100AFDDD7 /* CustomTabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabbar.swift; sourceTree = "<group>"; };
+		F2897558245FFAC600AFDDD7 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		F2A00932245C2CDD00BC054E /* AccelerateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccelerateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A00935245C2CDD00BC054E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F2A00937245C2CDD00BC054E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F2A00939245C2CDD00BC054E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2A00939245C2CDD00BC054E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		F2A0093C245C2CDD00BC054E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2A0093E245C2CE300BC054E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2A00941245C2CE300BC054E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +57,21 @@
 		F2A00948245C2CE300BC054E /* AccelerateAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccelerateAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A0094C245C2CE300BC054E /* AccelerateAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerateAppTests.swift; sourceTree = "<group>"; };
 		F2A0094E245C2CE300BC054E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2A00958245C356400BC054E /* SignUpLogoAnimationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpLogoAnimationCell.swift; sourceTree = "<group>"; };
+		F2A00959245C356400BC054E /* SignUpLogoAnimationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpLogoAnimationCell.xib; sourceTree = "<group>"; };
+		F2A0095E245C5AAA00BC054E /* SignUpAnimationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpAnimationCell.swift; sourceTree = "<group>"; };
+		F2A0095F245C5AAA00BC054E /* SignUpAnimationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpAnimationCell.xib; sourceTree = "<group>"; };
+		F2A066FD245D957A00CC0F9D /* TextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCell.swift; sourceTree = "<group>"; };
+		F2A066FE245D957A00CC0F9D /* TextFieldCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldCell.xib; sourceTree = "<group>"; };
+		F2A06702245D981900CC0F9D /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		F2A06704245D98FE00CC0F9D /* TextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField+Extension.swift"; sourceTree = "<group>"; };
+		F2A06706245DA6B600CC0F9D /* CommonSubmitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonSubmitButton.swift; sourceTree = "<group>"; };
+		F2A06707245DA6B600CC0F9D /* CommonSubmitButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommonSubmitButton.xib; sourceTree = "<group>"; };
+		F2A0670B245DD2D600CC0F9D /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		F2AE060C246156B100C4A9F0 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		F2AE060D246156B100C4A9F0 /* PhotoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
+		F2D5D6F32460514E00F563F1 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		F2D5D6F42460514E00F563F1 /* HomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +92,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F2897553245FE3BD00AFDDD7 /* TabBarClass */ = {
+			isa = PBXGroup;
+			children = (
+				F2897555245FE3D100AFDDD7 /* CustomTabbar.swift */,
+				F2897554245FE3D100AFDDD7 /* MyTabbar.swift */,
+			);
+			path = TabBarClass;
+			sourceTree = "<group>";
+		};
+		F289755A246023EF00AFDDD7 /* HomeTab */ = {
+			isa = PBXGroup;
+			children = (
+				F2897558245FFAC600AFDDD7 /* HomeVC.swift */,
+			);
+			path = HomeTab;
+			sourceTree = "<group>";
+		};
 		F2A00929245C2CDD00BC054E = {
 			isa = PBXGroup;
 			children = (
@@ -79,9 +130,10 @@
 		F2A00934245C2CDD00BC054E /* AccelerateApp */ = {
 			isa = PBXGroup;
 			children = (
+				F2897553245FE3BD00AFDDD7 /* TabBarClass */,
+				F2A06701245D97FD00CC0F9D /* Utilities */,
+				F2A00957245C352400BC054E /* View */,
 				F2A00935245C2CDD00BC054E /* AppDelegate.swift */,
-				F2A00937245C2CDD00BC054E /* SceneDelegate.swift */,
-				F2A00939245C2CDD00BC054E /* ViewController.swift */,
 				F2A0093B245C2CDD00BC054E /* Main.storyboard */,
 				F2A0093E245C2CE300BC054E /* Assets.xcassets */,
 				F2A00940245C2CE300BC054E /* LaunchScreen.storyboard */,
@@ -97,6 +149,85 @@
 				F2A0094E245C2CE300BC054E /* Info.plist */,
 			);
 			path = AccelerateAppTests;
+			sourceTree = "<group>";
+		};
+		F2A00957245C352400BC054E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2A0670A245DD26D00CC0F9D /* ViewControllers */,
+				F2A0095D245C5A7D00BC054E /* CollectionViewCells */,
+				F2A0095C245C357000BC054E /* TableViewCells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2A0095C245C357000BC054E /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				F2D5D6F22460510000F563F1 /* HomeTabCell */,
+				F2A00958245C356400BC054E /* SignUpLogoAnimationCell.swift */,
+				F2A00959245C356400BC054E /* SignUpLogoAnimationCell.xib */,
+				F2A066FD245D957A00CC0F9D /* TextFieldCell.swift */,
+				F2A066FE245D957A00CC0F9D /* TextFieldCell.xib */,
+				F2A06706245DA6B600CC0F9D /* CommonSubmitButton.swift */,
+				F2A06707245DA6B600CC0F9D /* CommonSubmitButton.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		F2A0095D245C5A7D00BC054E /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				F2AE060B2461569100C4A9F0 /* HomePhotoCell */,
+				F2A0095E245C5AAA00BC054E /* SignUpAnimationCell.swift */,
+				F2A0095F245C5AAA00BC054E /* SignUpAnimationCell.xib */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		F2A06701245D97FD00CC0F9D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F2A06702245D981900CC0F9D /* UIView+Extension.swift */,
+				F2A06704245D98FE00CC0F9D /* TextField+Extension.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F2A0670A245DD26D00CC0F9D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F2D5D6F1246050DB00F563F1 /* Login+SignUp */,
+				F289755A246023EF00AFDDD7 /* HomeTab */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F2AE060B2461569100C4A9F0 /* HomePhotoCell */ = {
+			isa = PBXGroup;
+			children = (
+				F2AE060C246156B100C4A9F0 /* PhotoCell.swift */,
+				F2AE060D246156B100C4A9F0 /* PhotoCell.xib */,
+			);
+			path = HomePhotoCell;
+			sourceTree = "<group>";
+		};
+		F2D5D6F1246050DB00F563F1 /* Login+SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				F2A00939245C2CDD00BC054E /* LoginVC.swift */,
+				F2A0670B245DD2D600CC0F9D /* SignUpVC.swift */,
+			);
+			path = "Login+SignUp";
+			sourceTree = "<group>";
+		};
+		F2D5D6F22460510000F563F1 /* HomeTabCell */ = {
+			isa = PBXGroup;
+			children = (
+				F2D5D6F32460514E00F563F1 /* HomeCell.swift */,
+				F2D5D6F42460514E00F563F1 /* HomeCell.xib */,
+			);
+			path = HomeTabCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,7 +313,13 @@
 			files = (
 				F2A00942245C2CE300BC054E /* LaunchScreen.storyboard in Resources */,
 				F2A0093F245C2CE300BC054E /* Assets.xcassets in Resources */,
+				F2A06709245DA6B600CC0F9D /* CommonSubmitButton.xib in Resources */,
+				F2A00961245C5AAA00BC054E /* SignUpAnimationCell.xib in Resources */,
 				F2A0093D245C2CDD00BC054E /* Main.storyboard in Resources */,
+				F2A0095B245C356400BC054E /* SignUpLogoAnimationCell.xib in Resources */,
+				F2AE060F246156B100C4A9F0 /* PhotoCell.xib in Resources */,
+				F2D5D6F62460514E00F563F1 /* HomeCell.xib in Resources */,
+				F2A06700245D957A00CC0F9D /* TextFieldCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +337,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2A0093A245C2CDD00BC054E /* ViewController.swift in Sources */,
+				F2AE060E246156B100C4A9F0 /* PhotoCell.swift in Sources */,
+				F2A06703245D981900CC0F9D /* UIView+Extension.swift in Sources */,
+				F2A0670C245DD2D600CC0F9D /* SignUpVC.swift in Sources */,
+				F2A00960245C5AAA00BC054E /* SignUpAnimationCell.swift in Sources */,
+				F2897556245FE3D100AFDDD7 /* MyTabbar.swift in Sources */,
+				F2A0093A245C2CDD00BC054E /* LoginVC.swift in Sources */,
 				F2A00936245C2CDD00BC054E /* AppDelegate.swift in Sources */,
-				F2A00938245C2CDD00BC054E /* SceneDelegate.swift in Sources */,
+				F2D5D6F52460514E00F563F1 /* HomeCell.swift in Sources */,
+				F2A06708245DA6B600CC0F9D /* CommonSubmitButton.swift in Sources */,
+				F2A06705245D98FE00CC0F9D /* TextField+Extension.swift in Sources */,
+				F2A0095A245C356400BC054E /* SignUpLogoAnimationCell.swift in Sources */,
+				F2897559245FFAC600AFDDD7 /* HomeVC.swift in Sources */,
+				F2A066FF245D957A00CC0F9D /* TextFieldCell.swift in Sources */,
+				F2897557245FE3D100AFDDD7 /* CustomTabbar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +442,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -348,7 +496,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="SignUpLogoAnimationCell" rowHeight="193" id="KGk-i7-Jjw" customClass="SignUpLogoAnimationCell" customModule="AccelerateApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="437" height="193"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="437" height="193"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iSG-GW-Ph0">
+                        <rect key="frame" x="0.0" y="0.0" width="437" height="193"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="xEe-0n-Uf7">
+                                <rect key="frame" x="0.0" y="0.0" width="437" height="156"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="4bo-Sx-csY">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <connections>
+                                    <outlet property="dataSource" destination="KGk-i7-Jjw" id="a0s-nQ-trr"/>
+                                    <outlet property="delegate" destination="KGk-i7-Jjw" id="p5a-s7-oGN"/>
+                                </connections>
+                            </collectionView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="9Up-lp-fa0">
+                                <rect key="frame" x="20" y="156" width="397" height="37"/>
+                                <color key="backgroundColor" red="0.98431372549999996" green="0.98039215690000003" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="currentPageIndicatorTintColor" red="0.96078431369999995" green="0.33333333329999998" blue="0.14901960780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" red="0.98431372549999996" green="0.98039215690000003" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="xEe-0n-Uf7" secondAttribute="trailing" id="0jc-dg-qAZ"/>
+                            <constraint firstItem="9Up-lp-fa0" firstAttribute="leading" secondItem="iSG-GW-Ph0" secondAttribute="leading" constant="20" id="2WS-Dk-JN7"/>
+                            <constraint firstAttribute="trailing" secondItem="9Up-lp-fa0" secondAttribute="trailing" constant="20" id="6hW-GQ-Ibt"/>
+                            <constraint firstItem="xEe-0n-Uf7" firstAttribute="leading" secondItem="iSG-GW-Ph0" secondAttribute="leading" id="Ht2-Gf-OKN"/>
+                            <constraint firstItem="xEe-0n-Uf7" firstAttribute="top" secondItem="iSG-GW-Ph0" secondAttribute="top" id="SzO-Xj-7Jk"/>
+                            <constraint firstAttribute="bottom" secondItem="9Up-lp-fa0" secondAttribute="bottom" id="f21-Ol-1Qe"/>
+                            <constraint firstItem="9Up-lp-fa0" firstAttribute="top" secondItem="xEe-0n-Uf7" secondAttribute="bottom" id="sTW-qb-MY0"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="iSG-GW-Ph0" secondAttribute="trailing" id="1D0-Zc-dsl"/>
+                    <constraint firstAttribute="bottom" secondItem="iSG-GW-Ph0" secondAttribute="bottom" id="4wT-Vj-62c"/>
+                    <constraint firstItem="iSG-GW-Ph0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="nnT-nY-iQj"/>
+                    <constraint firstItem="iSG-GW-Ph0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="x8E-SZ-rsL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="collectionView" destination="xEe-0n-Uf7" id="drK-mT-tT5"/>
+                <outlet property="pageControl" destination="9Up-lp-fa0" id="KHQ-Tk-bXI"/>
+            </connections>
+            <point key="canvasLocation" x="90.579710144927546" y="92.075892857142847"/>
+        </tableViewCell>
+    </objects>
+</document>

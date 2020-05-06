@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="85" id="KGk-i7-Jjw" customClass="CommonSubmitButton" customModule="AccelerateApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="85"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="85"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wfv-OS-mgj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="85"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="psQ-14-Idt">
+                                <rect key="frame" x="40" y="25" width="240" height="50"/>
+                                <color key="backgroundColor" red="0.84705882352941175" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <state key="normal" title="Sign Up">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.98431372549999996" green="0.98039215690000003" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="psQ-14-Idt" firstAttribute="leading" secondItem="wfv-OS-mgj" secondAttribute="leading" constant="40" id="0Mu-ac-f9O"/>
+                            <constraint firstAttribute="trailing" secondItem="psQ-14-Idt" secondAttribute="trailing" constant="40" id="GCA-jq-lTR"/>
+                            <constraint firstItem="psQ-14-Idt" firstAttribute="top" secondItem="wfv-OS-mgj" secondAttribute="top" constant="25" id="lwD-2U-Fkl"/>
+                            <constraint firstAttribute="bottom" secondItem="psQ-14-Idt" secondAttribute="bottom" constant="10" id="yXQ-Ya-Amg"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="wfv-OS-mgj" secondAttribute="trailing" id="WHv-o7-LJy"/>
+                    <constraint firstItem="wfv-OS-mgj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="aBQ-jh-3Yl"/>
+                    <constraint firstItem="wfv-OS-mgj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="pML-fh-xrt"/>
+                    <constraint firstAttribute="bottom" secondItem="wfv-OS-mgj" secondAttribute="bottom" id="raa-aW-yHp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="submitBtn" destination="psQ-14-Idt" id="34C-Tz-AEZ"/>
+            </connections>
+            <point key="canvasLocation" x="140.57971014492756" y="129.57589285714286"/>
+        </tableViewCell>
+    </objects>
+</document>
